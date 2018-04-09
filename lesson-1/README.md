@@ -1,4 +1,4 @@
-# Lesson 1: HTML, Inline and Block Elements
+# Lesson 1: HTML, Attributes, Inline, and Block Elements
 
 In this challenge, we're going to be adding basic HTML elements and styling them. Start with the index.html file and add the tags within the `<body></body>` tag.
 
@@ -17,26 +17,26 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - For the _third_ `<p>` add some text about where people can find references.
 - In the last `<div>`, add whatever content you'd like. Some ideas: links to social media, contact information, etc.
 - Use the following inline element tags correctly anywhere on the page at least once: `<a>`, `<br>`, `<em>`, `<address>`, `<strong>`, `<img>`.
-- At the end, run your code through the HTML Validator and fix any errors you notice.
-- *EXTRA:* Add styling to the style tag, or javascript to the javascript tag, _only_ if you have extra time. 
+- At the end, run your code through the HTML Validator and **fix any errors** you notice.
+- **EXTRA:** Add properties to tags you've used (`alt=""`, `class=""`, etc.) or use an element that was not required in this lesson, _only_ if you have extra time. Refer to the HTML Element Reference for ones to use.
 
 ### Key Concepts
 
-- Block elements: HTML elements that create a "block" in the display by appearing on their own line.
-- Tags: HTML annotations which indicate how the text should be formatted.
-- P tag: An HTML tag that indicates text should be formatted in a paragraph.
-- Opening tag: An HTML tag that appears before the text that will be formatted in an HTML document. For example, the `<p> in <p> This is a paragraph. </p>` is the opening tag.
-- Closing tag: An HTML tag that appears after the text that is formatted. It matches the opening tag but begins with a /. For example, the `</p>` in `<p> This is a paragraph. </p>` is the closing tag.
-- End tag: An alternative name for a closing tag.
-- Header: An HTML tag to indicate the text being formatted is a header. There are 6 sizes of HTML headers `<h1> through <h6>`.
-- Whitespace: All of the "empty" space that includes spaces, indentation, blank lines, etc.
-- Unordered list: A list of items that are designated with bullet points.
-- Ordered list: A list of items designated with numbers.
-- List item: An item in an ordered or unordered list.
-- Inline element: HTML elements that do not appear on their own line, but instead share a line with other elements.
-- Attribute: Additional information provided to an HTML tag. For instance, the href attribute in an `<a>` tag provides the URL a link should travel to.
-- Relative path: A path to a file within the project itself. Usually referring to the location provided in as the href attribute in an <a> tag.
-- Self-closing: An HTML element that does not require a closing tag, such as `<img>`.
+- **Block elements:** HTML elements that create a "block" in the display by appearing on their own line.
+- **Tags:** HTML annotations which indicate how the text should be formatted.
+- **P tag:** An HTML tag that indicates text should be formatted in a paragraph.
+- **Opening tag:** An HTML tag that appears before the text that will be formatted in an HTML document. For example, the `<p> in <p> This is a paragraph. </p>` is the opening tag.
+- **Closing tag:** An HTML tag that appears after the text that is formatted. It matches the opening tag but begins with a /. For example, the `</p>` in `<p> This is a paragraph. </p>` is the closing tag.
+- **End tag:** An alternative name for a closing tag.
+- **Header:** An HTML tag to indicate the text being formatted is a header. There are 6 sizes of HTML headers `<h1> through <h6>`.
+- **Whitespace:** All of the "empty" space that includes spaces, indentation, blank lines, etc.
+- **Unordered list:** A list of items that are designated with bullet points.
+- **Ordered list:** A list of items designated with numbers.
+- **List item:** An item in an ordered or unordered list.
+- I**nline element:** HTML elements that do not appear on their own line, but instead share a line with other elements.
+- **Attribute:** Additional information provided to an HTML tag. For instance, the href attribute in an `<a>` tag provides the URL a link should travel to.
+- **Relative path:** A path to a file within the project itself. Usually referring to the location provided in as the href attribute in an <a> tag.
+- **Self-closing:** An HTML element that does not require a closing tag, such as `<img>`.
 
 ### Links 
 
