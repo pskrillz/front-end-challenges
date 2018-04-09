@@ -9,7 +9,7 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - Use the following inline element tags correctly anywhere on the page: `<a>`, `<br>`, `<em>`, `<span>`, `<small>`, `<img>`.
 - An example image can pulled from the `/img/` directory, or if you'd like to add your own then download it and add to the `/img/` directory.
 
-#### Terminology
+### Key Concepts
 
 - Block elements: HTML elements that create a "block" in the display by appearing on their own line.
 - Tags: HTML annotations which indicate how the text should be formatted.
@@ -27,7 +27,7 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - Relative path: A path to a file within the project itself. Usually referring to the location provided in as the href attribute in an <a> tag.
 - Self-closing: An HTML element that does not require a closing tag, such as `<img>`.
 
-#### Links 
+### Links 
 
 - [HTML Element References](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML)
