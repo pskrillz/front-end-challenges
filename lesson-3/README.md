@@ -35,11 +35,14 @@ div {
 }
 ```
 
-Look through the `/layouts` directory and starting from `layout-1.png`, go through the exercises in numerical order. 
+- Use the `index.html` page as a template and create 15 additional pages based on that page. Label them `layout-1.html` and so forth. 
+- On the `index.html` page, add an `<h1>` and input "Table of Contents".
+- Look through the `/layouts` directory and starting from `layout-1.png`, go through the exercises in numerical order and position the divs based on the image.
+- For each lesson you complete, add it to the table of contents as `<ol>` list item and link it to the appropriate exercise.
 
 #### Tips:
 
-- Remember, we've talked about several ways to position elements on the page. These include but are not necessarily limited to display: block and display: inline-block, position: relative and position: absolute, margin, padding, and the infamous float.
+- Remember, we've talked about several ways to position elements on the page. These include but are not necessarily limited to `display: block` and `display: inline-block`, `position: relative` and `position: absolute`, `margin`, `padding`, and the infamous `float`.
 - If the layout dictates, some of the divs may be nested within other divs. Use your best judgement!
 - See how many different ways you can achieve the same result and consider the pros/cons of solution!
 
