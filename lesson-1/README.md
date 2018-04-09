@@ -18,7 +18,8 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - In the last `<div>`, add whatever content you'd like. Some ideas: links to social media, contact information, etc.
 - Use the following inline element tags correctly anywhere on the page at least once: `<a>`, `<br>`, `<em>`, `<address>`, `<strong>`, `<img>`.
 - At the end, run your code through the HTML Validator and **fix any errors** you notice.
-- **EXTRA:** Add properties to tags you've used (`alt=""`, `class=""`, etc.) or use an element that was not required in this lesson, _only_ if you have extra time. Refer to the HTML Element Reference for ones to use.
+- **EXTRA:**: Determine labels for each of your sections and use the provided comment template `<!-- ELEMENT TAG -->` & `<!--// ENDS: ELEMENT TAG -->` to comment out individual sections of your HTML.
+- **EXTRA:**: Add properties to tags you've used (`alt=""`, `class=""`, etc.) or use an element that was not required in this lesson, _only_ if you have extra time. Refer to the HTML Element Reference for ones to use.
 
 ### Key Concepts
 
@@ -38,7 +39,7 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - **Relative path:** A path to a file within the project itself. Usually referring to the location provided in as the href attribute in an <a> tag.
 - **Self-closing:** An HTML element that does not require a closing tag, such as `<img>`.
 
-### Links 
+## Links 
 
 - [HTML Element References](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [Debugging HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML)

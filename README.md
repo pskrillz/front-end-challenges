@@ -63,7 +63,6 @@ For each specific challenge, read the specifications for completion of the chall
     main.css                // Main external CSS file
 /img/                       // Image Folder
     cat.jpg                 // Example Image
-    cat@2x.jpg              // Example @2x Image
 /js/                        // Javascript Folder
     main.js                 // Main external JS file
 favicon.ico                 // Favicon
