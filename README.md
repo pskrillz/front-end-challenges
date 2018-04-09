@@ -69,7 +69,7 @@ For each specific challenge, read the specifications for completion of the chall
 favicon.ico                 // Favicon
 index.html                  // Main index file
 README.md                   // README Requirements
-final.jpg                   // Final result Image file 
+final.jpg                   // If provided, final result image file of output
 ```
 
 ### Starting the reload server
