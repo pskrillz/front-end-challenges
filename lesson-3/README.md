@@ -1,37 +1,55 @@
-# Lesson 3: DOM Traversal, DOM manipulation, and Javascript Interactivity
+# Lesson 3: Layout Positioning
 
-Now that we have a basic page with external styles, we can add interactivity. This is where Javascript comes into play.
+As a front end developer, you will often be handed comps from a designer that you then have to build. You will need to be able to take a graphic file and recreate it with code. This means that you'll have to be able to think through how you're going to get all the elements in that comp where they need to be, and that requires a solid understanding of how to position HTML elements with CSS.
 
 ### Requirements
 
-- Review DOM: Understanding Concepts.
+In this exercise, we'll take a series of simple comps and recreate each of them. Within the "wrapper" `<div>` will make the appropriate number of `<div>` tags with the div numbers indicated in the comps, give them a `<height>`, `<width>`, and `background-color` and then make them match the layout in the comp. Here's an example of what this might look like in your HTML and CSS:
 
-**Task: 1**
-- Traverse the DOM to find a `<a>` element.
-- Use that element: add a `title` attribute.
+#### Your HTML:
+```
+<div class="div1">
+  div1
+</div>
 
-**Task: 2**
-- Find an array of list elements from the `<ul>`.
-- Add a class to the _second_ list(`<li>`) element using javascript.
+<div class="div2">
+  div2
+</div>
+```
 
-**Task: 3**
-- Add a new `<div>` element tag at the bottom of the `<section>` with the class `main` and give it an id of `text-modify`.
-- Traverse the DOM and utilize one of the [Core Interfaces of the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction#Important_Data_Types) to add HTML content to the `text-modify` element.
+#### Your CSS:
 
-**Task: 4**
-- Add a button that `onClick` will call a show/hide toggle function.
-- From that function using JS, add a style attribute of display `block`/`none` to toggle on and off when the function is runs.
+```
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.div1 {
+  float: right;
+}
 
-**Task: 5**
-- Add an `onload` property to the page with an `alert` function that displays the text: "Thank you for viewing my resume! "
-- **EXTRA:** Add an additional button with an `onClick` function that will add a class `"clicked"` to the parent DOM elment (`section` or `aside` depending on where the button is). From within the CSS for the `"clicked"` selector, add a property that will give it a `background-color` of red. 
+.div2 {
+  float: left;
+}
+```
+
+Look through the `/layouts` directory and starting from `layout-1.png`, go through the exercises in numerical order. 
+
+#### Tips:
+
+- Remember, we've talked about several ways to position elements on the page. These include but are not necessarily limited to display: block and display: inline-block, position: relative and position: absolute, margin, padding, and the infamous float.
+- If the layout dictates, some of the divs may be nested within other divs. Use your best judgement!
+- See how many different ways you can achieve the same result and consider the pros/cons of solution!
 
 ### Key Concepts
 
-- The Document Object Model, or DOM, is your browser's interpretation of the HTML it reads. When JavaScript changes the page, it updates the DOM, not the HTML.
+- Given a layout, replicate it using CSS. 
 
 ## Links 
 
-- [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
-- [DOM Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
-- [CSS-Tricks: What is the DOM?](https://css-tricks.com/dom/)
+- [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_modelm)
+- [CSS-Tricks: Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)

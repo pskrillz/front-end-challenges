@@ -5,7 +5,11 @@ This repo will provide you with challenges that will take you over essential fro
 
 ## Getting started
 
-Begin by navigating to your IDE environment. This project requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server`.
+Begin by navigating to your IDE environment. 
+
+_*If you are running this project locally*_ then it requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server` in order to live reload. 
+
+_*If you are running this in an remote environment*_ (like c9.io), use the build in preview window to render the `index.html` of each respective lesson. You can skip the `nodejs`, `npm`, and Live Reload portions of this doc. 
 
 ### Node & NPM
 
@@ -39,7 +43,7 @@ Now that you have all the dependencies, we can start working on the challenges.
 Navigate to the top most directory where you clone repositories. Clone the repository into your workspace by using: 
 
 ```
-git clone $repo
+git clone git@github.com:khoadnguyen/front-end-challenges.git
 ```
 
 Change directory into the cloned repo:
@@ -71,7 +75,7 @@ README.md                   // README Requirements
 final.jpg                   // If provided, final result image file of output
 ```
 
-### Starting the reload server
+### Starting the live reload server
 
 From within the challenge directory, run the following command in your terminal to serve your files locally.
 
