@@ -18,7 +18,7 @@ Your current DOM tree should look close to this:
 > BODY 
     > DIV (class="wrapper)
         > SECTION (class="main")
-            > H!
+            > H1
             > P
             > H2
             > UL
@@ -57,25 +57,28 @@ Your current DOM tree should look close to this:
 - Change the left child flexbox item background-color property to: `#FBFEF2`.
 - Change the right child flexbox item background-color property to: `ECF0F6`. 
 - Change the right child flexbox item border property to: `1px dotted #000`.
-- **EXTRA:** Add additional styles to other elements on the page. 
+- When everything is complete, move all the styles from your `<style>` tag and add them to `/css/main.css` and include it as an external stylesheet to `index.html`.
+- **EXTRA:** Add additional styles to other elements on the page. Use CSS properties you have not used, consult the [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) for ideas. 
+- **EXTRA:** Add classes to two existing elements, and style those.
 
 ### Key Concepts
 
-- CSS: Stands for Cascading Style Sheets. A language used to program the visual appearance of HTML elements.
-- Rule: A block of CSS that details particular stylistic instructions to be applied to an HTML element.
-- Selector: The part of a CSS rule that determines which HTML elements the rule applies to.
-- Property: The characteristic a CSS rule is altering. (For example, color, or font-size).
-- Value: The attribute a CSS rule is applying to the specified property.
-- Box model: A model that shows the properties of how the space around an element is assigned and manipulated with CSS.
-- Inheritance: The process by which children elements share the properties of their parent elements.
-- Specificity: In the instance that two styles conflict, the style that is applied will be the most specific of the two. For example, a style for a paragraph tag would not be applied if there was a style for a link within a paragraph. The link within the paragraph reference is more specific than paragraph.
-- Inline style: Style that is added directly into the HTML for an element. Inline styling takes precedence over styling in your CSS files. It is not considered good practice to style HTML this way.
-- External Stylesheets: A stylesheet that is linked to an HTML document and lives externally. 
+- **CSS:** Stands for Cascading Style Sheets. A language used to program the visual appearance of HTML elements.
+- **Rule:** A block of CSS that details particular stylistic instructions to be applied to an HTML element.
+- **Selector:** The part of a CSS rule that determines which HTML elements the rule applies to.
+- **Property:** The characteristic a CSS rule is altering. (For example, color, or font-size).
+- **Value:** The attribute a CSS rule is applying to the specified property.
+- **Box model:** A model that shows the properties of how the space around an element is assigned and manipulated with CSS.
+- **Inheritance:** The process by which children elements share the properties of their parent elements.
+- **Specificity:** In the instance that two styles conflict, the style that is applied will be the most specific of the two. For example, a style for a paragraph tag would not be applied if there was a style for a link within a paragraph. The link within the paragraph reference is more specific than paragraph.
+- **Inline style:** Style that is added directly into the HTML for an element. Inline styling takes precedence over styling in your CSS files. It is not considered good practice to style HTML this way.
+- **External Stylesheets:** A stylesheet that is linked to an HTML document and lives externally. 
 
-### Links 
+## Links 
 
 - [HTML Content Sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
 - [Codepen: DOM Tree Visualizer](https://codepen.io/khoadnguyen/pen/EEGmvw)
+- [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_modelm)
 - [CSS-Tricks: Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Debugging CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Debugging_CSS)
