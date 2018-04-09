@@ -77,6 +77,7 @@ Your current DOM tree should look close to this:
 ## Links 
 
 - [HTML Content Sectioning](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning)
+- [CSS-Tricks: What is the DOM?](https://css-tricks.com/dom/)
 - [Codepen: DOM Tree Visualizer](https://codepen.io/khoadnguyen/pen/EEGmvw)
 - [CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [Box Model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_modelm)
