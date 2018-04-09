@@ -1,0 +1,8 @@
+{
+  "name": "Front End Static Site Challenges",
+  "version": "1.0.0",
+  "description": "A Repo with Frontend Challenges",
+  "author": "Khoa Nguyen <visthetic@gmail.com>",
+  "license": "MIT",
+  "private": true,
+}

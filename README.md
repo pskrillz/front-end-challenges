@@ -3,11 +3,11 @@
 This repo will provide you with challenges that will take you over essential frontend knowledge.
 
 
-### Getting started
+## Getting started
 
 Begin by navigating to your IDE environment. This project requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server`.
 
-#### Node & NPM
+### Node & NPM
 
 You can check if you have node installed by typing the following command in your terminal: 
 
@@ -20,7 +20,7 @@ If you have a node installed, the command should yield a version number like: `v
 
 If you do not have `nodejs` or `npm` installed, please follow the instructions on the [nodejs](https://nodejs.org/en/download/current/) website.
 
-#### Live Reload HTTP Server
+### Live Reload HTTP Server
 
 In addition to `nodejs` and `npm` we need to install [Live Reload HTTP Server](https://www.npmjs.com/package/lr-http-server). 
 
@@ -32,7 +32,7 @@ Run the following command in your terminal from anywhere in your workspace. This
 npm install -g lr-http-server
 ```
 
-#### Cloning the Repo
+### Cloning the Repo
 
 Now that you have all the dependencies, we can start working on the challenges.
 
@@ -50,13 +50,13 @@ cd front-end-challenges
 
 From here, you should see the challenges in each individual folder.
 
-### Instructions
+## Instructions
 
 Each challenge will be isolated into a single directory. For example, challenge 1 is located in the `/challenge-1/` directory. To begin, `cd` into that directory.
 
 For each specific challenge, read the specifications for completion of the challenge in the `README.md` and complete the requirements. The final.jpg file should be what the result of the requirements looks like.
 
-#### Directory Structure
+### Directory Structure
 
 ```
 /css/                       // CSS Folder
@@ -72,7 +72,7 @@ README.md                   // README Requirements
 final.jpg                   // Final result Image file 
 ```
 
-#### Starting the reload server
+### Starting the reload server
 
 From within the challenge directory, run the following command in your terminal to serve your files locally.
 
