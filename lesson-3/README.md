@@ -38,6 +38,7 @@ div {
 - Use the `index.html` page as a template and create 15 additional pages based on that page. Label them `layout-1.html` and so forth. 
 - On the `index.html` page, add an `<h1>` and input "Table of Contents".
 - Look through the `/layouts` directory and starting from `layout-1.png`, go through the exercises in numerical order and position the divs based on the image.
+- Use either an in document or external stylesheet.
 - For each lesson you complete, add it to the table of contents as `<ol>` list item and link it to the appropriate exercise.
 
 #### Tips:

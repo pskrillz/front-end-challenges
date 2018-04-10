@@ -14,7 +14,7 @@ In this challenge, we're going to be adding basic HTML elements and styling them
 - For the `<ul>`, add 3 or more `<li>` with strengths that you would list on a resume.
 - For the _second_ `<h2>` tag, type `Experience`.
 - For the `<ol>`, add 3 or more `<li>` coding languages you've had experience with.
-- For the _third_ `<p>` add some text about where people can find references.
+- For the _third_ `<p>` add a fun fact about yourself.
 - In the last `<div>`, add whatever content you'd like. Some ideas: links to social media, contact information, etc.
 - Use the following inline element tags correctly anywhere on the page at least once: `<a>`, `<br>`, `<em>`, `<address>`, `<strong>`, `<img>`.
 - At the end, run your code through the HTML Validator and **fix any errors** you notice.
