@@ -9,7 +9,7 @@ Begin by navigating to your IDE environment.
 
 _*If you are running this project locally*_ then it requires that you have `nodejs`, `npm`, and another global dependency called `lr-http-server` in order to live reload. 
 
-_*If you are running this in an remote environment*_ (like c9.io), use the build in preview window to render the `index.html` of each respective lesson. You can skip the `nodejs`, `npm`, and Live Reload portions of this doc. 
+_*If you are running this in an remote environment*_ (like c9.io), use the built in preview window to render the `index.html` of each respective lesson. You can skip the `nodejs`, `npm`, and Live Reload portions of this doc. 
 
 ### Node & NPM
 

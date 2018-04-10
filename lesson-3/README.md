@@ -48,7 +48,7 @@ div {
 
 ### Key Concepts
 
-- Given a layout, replicate it using CSS. 
+- Given a layout comp, replicate it using HTML & CSS. 
 
 ## Links 
 
