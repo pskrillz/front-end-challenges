@@ -43,7 +43,7 @@ Now that you have all the dependencies, we can start working on the challenges.
 Navigate to the top most directory where you clone repositories. Clone the repository into your workspace by using: 
 
 ```
-git clone git@github.com:khoadnguyen/front-end-challenges.git
+git clone https://github.com/khoadnguyen/front-end-challenges.git
 ```
 
 Change directory into the cloned repo:
