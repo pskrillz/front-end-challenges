@@ -26,7 +26,7 @@ If you have content from `lesson-2` you can use that within the `<body>` tag ins
 - From that function using JS, add a style attribute of display `block`/`none` to toggle on and off when the function is runs.
 
 **Task: 5**
-- Add an `onload` property to the button with an `alert` function that displays the text: "Thank you for viewing my resume! "
+- Add a new button with an `id` of `alert` under your current one in the HTML with an `alert` function that displays the text: "Thank you for viewing my resume!". The button text can be whatever you'd like. 
 - **EXTRA:** Add an additional button with an `onClick` function that will add a class `"clicked"` to the parent DOM elment (`section` or `aside` depending on where the button is). From within the CSS for the `"clicked"` selector, add a property that will give it a `background-color` of red. 
 
 ### Key Concepts
