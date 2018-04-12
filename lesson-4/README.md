@@ -2,9 +2,12 @@
 
 Now that we have a basic page with external styles, we can add interactivity. This is where Javascript comes into play.
 
+If you have content from `lesson-2` you can use that within the `<body>` tag instead of the provided content.
+
 ### Requirements
 
 - Review DOM: Understanding Concepts.
+- Notice that the Javascript is at the bottom of the page now, vs the top and that it is external now vs. on the document. This is because the html has to fully load before the JS can interact with it.
 
 **Task: 1**
 - Traverse the DOM to find a `<a>` element.
