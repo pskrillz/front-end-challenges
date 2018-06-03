@@ -56,7 +56,7 @@ From here, you should see the challenges in each individual folder.
 
 ## Instructions
 
-Each challenge will be isolated into a single directory. For example, challenge 1 is located in the `/challenge-1/` directory. To begin, `cd` into that directory.
+Each challenge will be isolated into a single directory. For example, lesson 1 is located in the `/lesson-1/` directory. To begin, `cd` into that directory.
 
 For each specific challenge, read the specifications for completion of the challenge in the `README.md` and complete the requirements. If included, the `final.jpg` file should be what the result of the requirements looks like.
 
