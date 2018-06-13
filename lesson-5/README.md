@@ -2,22 +2,22 @@
 
 Now is the time to put your HTML, CSS, and Javascript to the test. You'll need to recreate the login page of an app. You can choose from any of the the following images.
 
-#####Login 1:
+####Login 1:
 
 ![alt text][login1]
 ---
 
-#####Login: 2
+####Login: 2
 
 ![alt text][login2]
 ---
 
-#####Login: 3
+####Login: 3
 
 ![alt text][login3]
 ---
 
-#####Login: 4
+####Login: 4
 
 ![alt text][login4]
 
