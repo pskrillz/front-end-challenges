@@ -24,9 +24,11 @@ Login: 4
 ### Requirements
 
 - Choose one of the login page images to base yours on.
-- Modify your `index.html`  to make it look just like the image.
-- Use any combination of HTML, CSS and Javascript as long as it looks like it.
-- Add one event based dynamic functionality when the user clicks on the `Login` button.
+- Modify your `index.html`  and content section it to achieve the same structure.
+- Use CSS to style and position the page elements to match the login version you chose.
+- Add one event based dynamic functionality when the user clicks on the `Login/Sign In` button.
+- Use any combination of HTML, CSS and Javascript as long as it looks like the image.
+
 
 [login1]: https://github.com/khoadnguyen/front-end-challenges/raw/master/lesson-5/img/login-1.jpg "Login 1"
 [login2]: https://github.com/khoadnguyen/front-end-challenges/raw/master/lesson-5/img/login-2.jpg "Login 2"
