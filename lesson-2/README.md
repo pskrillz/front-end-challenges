@@ -7,8 +7,8 @@ _If you have content from `lesson-1` you can use that within the `<body>` tag in
 ### Requirements
 
 - We first need to differentiate content sections for our HTML Markup and organize things a bit.
-- Wrap a `<section>` that will encapsulate the `ABOUT ME`, `STRENGTHS`, and `EXPERIENCE` content areas. Add a class attribute to the `<secton>` and give it a value of "main".
-- Wrap an `<aside>` that will encapsulate the `CONTACT` and `SOCIAL MEDIA` content areas. Add a class attribute to the `<aside>` and give it a value of "sidebar".
+- Create an element `<section>` that will encapsulate the `ABOUT ME`, `STRENGTHS`, and `EXPERIENCE` content areas. Add a class attribute to the `<section>` and give it a value of "main".
+- Create an element `<aside>` that will encapsulate the `CONTACT` and `SOCIAL MEDIA` content areas. Add a class attribute to the `<aside>` and give it a value of "sidebar".
 - Move the _first_ `<p>` that contains the image into the top of the `<aside>` above `CONTACT` and add comment code around it to indicate that it is its own content area.
 - Lastly wrap a `<div>` section around the `<section>` and `<aside>` elements. Add a class attribute to the `<div>` and give it a value of "wrapper".
 
