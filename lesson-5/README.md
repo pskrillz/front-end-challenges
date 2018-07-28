@@ -1,4 +1,4 @@
-# Lesson #: Login Page
+# Lesson 5: Login Page
 
 Now is the time to put your HTML, CSS, and Javascript to the test. You'll need to recreate the login page of an app. You can choose from any of the the following images.
 
