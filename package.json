@@ -1,8 +1,26 @@
 {
-  "name": "Front End Static Site Challenges",
-  "version": "1.0.0",
-  "description": "A Repo with Frontend Challenges",
-  "author": "Khoa Nguyen <visthetic@gmail.com>",
-  "license": "MIT",
-  "private": true,
+    "name": "Front End Static Site Challenges",
+    "version": "1.0.0",
+    "description": "A Repo with Frontend Challenges",
+    "author": "Khoa Nguyen <visthetic@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "jest": "^23.6.0",
+        "jest-cli": "^23.6.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "babel-core": "^7.0.0-bridge.0",
+        "babel-jest": "^23.6.0",
+        "jest-expect-message": "SoftStackFactory/jest-expect-message",
+        "regenerator-runtime": "^0.12.1"
+    },
+    "jest": {
+        "setupTestFrameworkScriptFile": "jest-expect-message",
+        "transform": {
+            "bacon/^.+\\.js$": "babel-jest"
+        }
+    }
 }
