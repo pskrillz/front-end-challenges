@@ -2,7 +2,41 @@
 // ==========================================================================
 //  MAIN CSS FILE [ HEADER ]
 // ==========================================================================
+
 **/
 
 
+
+.wrapper {background-color: #FDFEFE.;
+    margin: 20px; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    
+    }
+.main {background-color: #FBFEF2;
+    padding: 15px;
+    width: 3/4;}
+.sidebar {background-color: #ECF0F6;
+    border: 1px dotted #000;
+    padding: 15px;}
+
+
+
+/* 
+Comments:
+Why is this throwing errors in VSC?
+Quite an ugly layout..
+*/
+
+
+
+
+
+
+
 /* CSS FILE COMMENTS [ INLINE ] */
+
+
+
