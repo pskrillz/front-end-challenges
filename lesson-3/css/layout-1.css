@@ -20,13 +20,12 @@
      border: solid black 2px;
      height: 100px;
      width: 100px;
-     display: flex;
+     
 
 }
 
-#elem3 {
-    display:flex;
-    justify-content: left;
+#elem1 {
+    margin-right: auto;
 }
 
 

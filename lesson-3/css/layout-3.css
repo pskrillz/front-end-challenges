@@ -1,0 +1,56 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 0 auto ;
+    border: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+
+
+.elements {
+     border: solid black 2px;
+     height: 400px;
+     width: 400px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     
+
+}
+
+#elem1 {
+    align-self: center;
+    justify-content: center;
+  
+}
+
+.content {
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    align-self: center; 
+    width: 200px;
+    justify-content: center;
+    border: solid black 1px
+}
+
+
+#elem2 {
+    align-self: center;
+    justify-self: center;
+}
+
+
+/* CSS FILE COMMENTS [ INLINE ] */
