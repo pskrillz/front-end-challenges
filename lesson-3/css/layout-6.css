@@ -1,0 +1,42 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 0 auto ;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    
+    
+  
+}
+
+.div1 {
+    border: solid black 2px;
+    grid-column: 3 / span 6;
+    grid-row: 5 / span 4;
+    
+}
+
+.div2 {
+    border: solid black 2px;
+    grid-column: 3 / span 2;
+    grid-row: 6 / span 2;
+  
+}
+
+.div3 {
+    border: solid black 2px;
+    grid-column: 7 / span 2;
+    grid-row: 5 / span 2;
+   
+}
+

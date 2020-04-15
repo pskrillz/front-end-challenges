@@ -1,0 +1,34 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 0 auto ;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    
+    
+  
+}
+
+.div1 {
+    border: solid black 2px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.div2 {
+    border: solid black 2px;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+
+/* yay css grid seems better to me! */
