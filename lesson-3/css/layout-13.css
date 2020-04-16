@@ -1,0 +1,67 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+  width: 650px;
+  height: 540px;
+  margin: 0 auto;
+  border: solid black 2px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.div1 {
+  border: solid black 2px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.div2 {
+  border: solid black 2px;
+  background-color: black;
+  color: white;
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 3;
+  z-index: 2
+  
+}
+
+.div3 {
+  border: solid black 2px;
+  background-color: grey;
+  color: white;
+  grid-column: 3 / span 3;
+  grid-row: 3 / span 3;
+  z-index: 3;
+  position: relative;
+  
+}
+
+.div4 {
+  border: solid black 2px;
+  background-color:black;
+  color: white;
+  grid-column: 4 / span 3;
+  grid-row: 4 / span 3;
+  z-index: 4;
+  position: relative;
+  
+}
+
+.div5 {
+  border: solid black 2px;
+  background-color: grey;
+  color: white;
+  grid-column: 5 / span 3;
+  grid-row: 5 / span 3;
+  z-index: 5;
+  position: relative;
+  
+}

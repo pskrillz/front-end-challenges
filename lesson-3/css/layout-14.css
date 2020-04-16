@@ -1,0 +1,36 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+  width: 650px;
+  height: 540px;
+  margin: 0 auto;
+  border: solid black 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div1 {
+  border: solid black 2px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  
+}
+
+.div2 {
+  border: solid black 2px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 150px;
+  align-self: flex-end;
+ 
+  
+}

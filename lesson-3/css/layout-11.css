@@ -1,0 +1,58 @@
+/**
+// ==========================================================================
+//  MAIN CSS FILE
+// ==========================================================================
+**/
+
+
+/* WRAPPER: Reset, do not modify */
+.wrapper {
+    width: 650px;
+    height: 540px;
+    margin: 0 auto ;
+    border: solid black 2px;
+    display: flex;
+  
+}
+
+
+.div1 {
+    border: solid black 2px;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+     
+}
+
+.div2 {
+    border: solid black 2px;
+    background-color: black;
+    color: white;
+    height: 170px;
+    width: 140px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+  
+   
+
+}
+
+.div3 {
+    border: solid black 2px;
+    background-color: grey;
+    color: white;
+    height: 120px;
+    width: 120px;
+   
+
+}
+
+
