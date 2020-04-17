@@ -7,3 +7,6 @@
 
 /* CSS FILE COMMENTS [ INLINE ] */
 
+.clicked {
+    background-color: red;
+}
