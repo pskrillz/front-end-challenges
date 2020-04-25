@@ -1,0 +1,92 @@
+
+body {
+    background-image: linear-gradient(to right, rgb(0, 255, 255), blue);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.loginSection {
+    grid-column: 2 / span 8;
+    grid-row: 1 / span 4; 
+    margin-top: 50px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/03/51/70/585791ffa147edc.jpg"); */
+}
+
+.loginForm {
+    width: 100px;
+    height: 100px;
+    grid-row: 2 / span 3;
+    grid-column: 7 / span 3;
+    position: relative;
+    margin-top: 50px;
+
+}
+
+input {
+    width: 70%;
+}
+
+
+label {
+    font-size: 10px;
+    color: black;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    grid-row: 2 / span 3;
+    grid-column: 2 / span 2;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+
+.title {
+    grid-column: 4 / span 4;
+    grid-row: 2;
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.loginForm {
+    
+    grid-row: 3;
+    grid-column: 3;
+    padding-right: 20px;
+    position: relative;
+}
+
+.loginwrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.img {
+    width: 20%;
+    height: 20%;
+    grid-row: 3;
+    grid-column: 4;
+    
+} */
